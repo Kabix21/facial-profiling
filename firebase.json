@@ -1,0 +1,15 @@
+{
+  "hosting": {
+    "site": "facial-profiling-aee6c-bc19b",
+      "public": "public",
+    "rewrites": [
+      {
+        "source": "/**",
+        "run": {
+          "serviceId": "flask-app",
+          "region": "us-central1"
+        }
+      }
+    ]
+  }
+}
